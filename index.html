@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Download Documents</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0eafc, #cfdef3);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 16px;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 600px;
+      animation: fadeInScale 1s ease forwards;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 2rem;
+      color: #333;
+      opacity: 0;
+      animation: fadeInText 1s ease forwards 0.3s;
+    }
+
+    .file-link {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #007BFF;
+      color: white;
+      padding: 14px 20px;
+      margin: 12px 0;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 16px;
+      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+      transform: scale(0.95);
+      opacity: 0;
+      animation: fadeInUp 0.5s ease forwards;
+    }
+
+    .file-link:nth-child(2) { animation-delay: 0.4s; }
+    .file-link:nth-child(3) { animation-delay: 0.6s; }
+    .file-link:nth-child(4) { animation-delay: 0.8s; }
+    .file-link:nth-child(5) { animation-delay: 1s; }
+    .file-link:nth-child(6) { animation-delay: 1.2s; }
+    .file-link:nth-child(7) { animation-delay: 1.4s; }
+    .file-link:nth-child(8) { animation-delay: 1.6s; }
+    .file-link:nth-child(9) { animation-delay: 1.8s; }
+    .file-link:nth-child(10) { animation-delay: 2s; }
+    .file-link:nth-child(11) { animation-delay: 2.4s; }
+    .file-link:nth-child(12) { animation-delay: 2.6s; }
+    .file-link:nth-child(13) { animation-delay: 2.8s; }
+    .file-link:nth-child(14) { animation-delay: 3s; }
+    .file-link:nth-child(15) { animation-delay: 3.2s; }
+    .file-link:nth-child(16) { animation-delay: 3.4s; }
+    .file-link:nth-child(17) { animation-delay: 3.6s; }
+    .file-link:nth-child(18) { animation-delay: 3.8s; }
+    .file-link:nth-child(19) { animation-delay: 4s; }
+    .file-link:nth-child(20) { animation-delay: 4.4s; }
+    .file-link:nth-child(21) { animation-delay: 4.6s; }
+    .file-link:nth-child(22) { animation-delay: 4.8s; }
+    .file-link:nth-child(23) { animation-delay: 5s; }
+
+    .file-link:hover {
+      background-color: #0056b3;
+      transform: scale(1.02);
+    }
+
+    .icon {
+      font-size: 1.5em;
+      margin-right: 10px;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px) scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    @keyframes fadeInScale {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes fadeInText {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1> Download Your Files</h1>
+    <h1 >Php</h1>
+
+    <a class="file-link" href="final php lab record -NEW.pdf" download><span> PHP all programs</span></a>
+    <h1>Linux</h1>
+    <a class="file-link" href="linux/read_name.sh" download><span> Read command </span></a>
+    <a class="file-link" href="linux/read_integer.sh" download><span> Read an integer</span></a>
+    <a class="file-link" href="linux/basic_arithametic_operation.sh" download><span>️ Basic Arithmetic operation</span></a>
+    <a class="file-link" href="linux/program_to_sort.sh" download><span> sort </span></a>
+    <a class="file-link" href="linux/largest_of_2.sh" download><span> Largest of 2 numbers</span></a>
+    <a class="file-link" href="linux/largest_of_3no.sh" download><span> Largest of 3 numbers </span></a>
+    <a class="file-link" href="linux/student_pass_or fail.sh" download><span>️ Student Pass or fail</span></a>
+    <a class="file-link" href="linux/fileexits.sh" download><span> Check file exits or not</span></a>
+    <a class="file-link" href="linux/menu_driven_calculator.sh" download><span> Menu driven calculator</span></a>
+    <a class="file-link" href="linux/string_operations.sh" download><span> String Operations</span></a>
+    <a class="file-link" href="linux/N_numbers_using_while.sh" download><span>️ N number using while loop</span></a>
+    <a class="file-link" href="linux/N_numbers_using_until.sh" download><span> N number using until loop</span></a>
+    <a class="file-link" href="linux/N_numbers_using_for.sh" download><span> N number using for loop</span></a>
+    <a class="file-link" href="linux/sum_of_n_numbers.sh" download><span> Sum of N numbers</span></a>
+    <a class="file-link" href="linux/sum_of_digit_numbers.sh" download><span>️ Sum of digits of numbers</span></a>
+    <a class="file-link" href="linux/reverse_number.sh" download><span> Reverse number</span></a>
+    <a class="file-link" href="linux/palindrom.sh" download><span> Check palindrom or not</span></a>
+    <a class="file-link" href="linux/prime_numbers.sh" download><span> Prime numbers</span></a>
+    <a class="file-link" href="linux/armstrong_or_not.sh" download><span>️ Armstrong or not</span></a>
+    <a class="file-link" href="linux/fibanacci.sh" download><span> Fibanacci series</span></a>
+    <a class="file-link" href="linux/array.sh" download><span> Read and prind sum of array elements</span></a>
+  
+  
+  </div>
+</body>
+</html>
